@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable List Using Vanilla JS</title>
+   
+    <style>
+        
+        ul{
+            background-color: aqua;
+            width: 60%;
+            max-width: 40rem;
+            /* align-items: center; */
+            margin: auto;
+            margin-bottom: 2rem;
+            
+            
+        }
+
+
+        .nameHead{
+            list-style: none;
+           
+        }
+       a{
+           text-decoration: none;
+       }
+
+    </style>
+
+</head>
+<body>
+
+    <div style="text-align: center;"><h1>My Contacts</h1></div>
+  
+    <div id="contacts">
+    
+        <div id="inputDiv" style="margin: 2rem; padding-left: 20%;">
+            <input type="text" id="searchContacts" style="margin-top: 2rem; width: 60%;" placeholder="search here..">
+        </div>
+
+
+        <ul id="contacts">
+            <li class="nameHead"><h2>A</h2></li>
+            <li class="names"><a href="#">Arjuna</a></li>
+            <li class="names"><a href="#">Akanksha</a></li>
+            <li class="names"><a href="#">Arun Kumar</a></li>
+            <li class="names"><a href="#">Amulya</a></li>
+            <li class="names"><a href="#">Anikita</a></li>
+            <li class="names"><a href="#">Anupama</a></li>
+        </ul>
+        <ul >
+            <li class="nameHead"><h2>B</h2></li>
+            <li class="names"><a href="#">Bharat</a></li>
+            <li class="names"><a href="#">Banu Kumar</a></li>
+            <li class="names"><a href="#">Bharthesh</a></li>
+            <li class="names"><a href="#">Bhavana</a></li>
+            <li class="names"><a href="#">Bhaskar</a></li>
+            <li class="names"><a href="#">Banu Priya</a></li>
+        </ul>
+        <ul >
+            <li class="nameHead"><h2>C</h2></li>
+            <li class="names"><a href="#">Chaitanya</a></li>
+            <li class="names"><a href="#">Chithsukh</a></li>
+            <li class="names"><a href="#">Chetan</a></li>
+            <li class="names"><a href="#">Chandru</a></li>
+            <li class="names"><a href="#">Chandra Sheker</a></li>
+            <li class="names"><a href="#">Chandana</a></li>
+        </ul>
+        <ul >
+            <li class="nameHead"><h2>D</h2></li>
+            <li class="names"><a href="#">Dhananjay</a></li>
+            <li class="names"><a href="#">Dhanush</a></li>
+            <li class="names"><a href="#">Dhanya</a></li>
+            <li class="names"><a href="#">Deepika</a></li>
+            <li class="names"><a href="#">Deepak</a></li>
+            <li class="names"><a href="#">Depthi</a></li>
+        </ul>
+        <ul >
+            <li class="nameHead"><h2>E</h2></li>
+            <li class="names"><a href="#">Eshwar</a></li>
+            <li class="names"><a href="#">Eshanth</a></li>
+            <li class="names"><a href="#">Emily</a></li>
+            <li class="names"><a href="#">Emearald</a></li>
+            <li class="names"><a href="#">Emma Watson</a></li>
+            <li class="names"><a href="#">Ed Shareen</a></li>
+        </ul>
+      
+
+
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
